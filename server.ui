@@ -93,7 +93,7 @@
        </spacer>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="sendBtn">
         <property name="minimumSize">
          <size>
           <width>100</width>

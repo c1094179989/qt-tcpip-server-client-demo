@@ -17,6 +17,10 @@ public:
     Server(QWidget *parent = nullptr);
     ~Server();
 
+public:
+    QTcpServer * listen;
+    QTcpSocket * conn;
+
 private:
     Ui::Server *ui;
 };
