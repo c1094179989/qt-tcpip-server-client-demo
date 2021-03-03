@@ -2,6 +2,7 @@
 #define CLIENT_H
 
 #include <QWidget>
+#include <QTcpSocket>
 
 namespace Ui {
 class Client;
@@ -14,6 +15,9 @@ class Client : public QWidget
 public:
     explicit Client(QWidget *parent = nullptr);
     ~Client();
+
+public:
+    QTcpSocket *client;
 
 private:
     Ui::Client *ui;
