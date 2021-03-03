@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     w.show();
 
     Client c;
-    c.setWindowTitle("服务端");
+    c.setWindowTitle("客户端");
     c.show();
 
     return a.exec();
